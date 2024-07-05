@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'RioGrande';
+    src: url('../fonts/RioGrande.ttf') format('truetype');
+    font-weight: normal;
+}
+body{
+    font-family: 'RioGrande';
+}
+p{
+    font-family: 'RioGrande';
+    font-size: 40px;
+}

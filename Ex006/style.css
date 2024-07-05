@@ -1,0 +1,38 @@
+/*
+    ID em HTML vira # em CSS (Pode um único elemento)
+    Class em HTML vira . em CSS (Pode vários elementos)
+
+*/
+
+.title-page{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.add-information{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.information{
+    text-align: justify;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.container {
+    text-align: center;
+   
+    padding: 20px;
+}
+.images {
+    height: 350px;
+    border-radius: 15px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+}

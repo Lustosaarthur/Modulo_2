@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        aside{
+            font-size: 12px;
+            color: gray;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            margin: 10px;
+        }
+        nav{
+            border-radius: 8px;
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.267);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Politica</a>
+            <a href="#">Saúde</a>
+            <a href="#">Tecnoloia</a>
+            <a href="esportes.html" target="_blank">Esportes</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>O que está acontencendo no mundo</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus maiores commodi 
+                    magni ipsum facilis quod non sequi saepe vel ut illum nisi quidem, esse repellat 
+                    animi totam pariatur repellendus adipisci.
+                </p>
+            </article>
+            <aside>
+                Escrito por mim S2
+            </aside>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus maiores commodi 
+                    magni ipsum facilis quod non sequi saepe vel ut illum nisi quidem, esse repellat 
+                    animi totam pariatur repellendus adipisci.
+                </p>
+                <aside>
+                    <p>Escrito por mim S2</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim S2</p>
+    </footer>
+</body>
+</html>

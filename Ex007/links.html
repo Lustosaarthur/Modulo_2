@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* PERSONALIZANDO ELEMENTOS
+        # => ID
+        . => Class
+        : => Pseudoclass
+        :: => PseudoElemento
+        > => Children 
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: chocolate;
+        }
+        .especial::after{
+            content: '  ❤';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://youtu.be/v8RQFpJEWgo?si=Y5150JLCkwvXfV3N" target="_blank">Github</a></li>
+        <li><a href="https://youtu.be/5dHuoR2zKPQ?si=ICxR48h1UP1PvhoW" class="especial" target="_blank">Linkdin</a></li>
+        <li><a href="https://youtu.be/rdh1ha-lX8Y?si=piRnTcI34EwnTdW4" target="_blank">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>
